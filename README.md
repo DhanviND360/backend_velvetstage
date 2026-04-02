@@ -3,6 +3,8 @@
 Flask + yt-dlp backend that powers the VelvetStage music streaming app.  
 Provides `/search` and `/stream-url` endpoints used by the React Native frontend.
 
+**🚀 Live URL:** https://web-production-809b.up.railway.app
+
 ## Endpoints
 
 | Method | Path | Description |

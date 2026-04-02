@@ -1,7 +1,7 @@
 flask
 flask-cors
 flask-compress
-yt-dlp
+yt-dlp>=2024.3.10
 requests
 gunicorn
 python-dotenv
