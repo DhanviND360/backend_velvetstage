@@ -35,6 +35,10 @@ def clean_stream_cache():
         stream_cache = {k: v for k, v in stream_cache.items() if v["expires"] > current_time}
 
 
+@app.route('/', methods=['GET'])
+def home():
+    return "Backend is running successfully"
+
 @app.route('/health', methods=['GET'])
 def health():
     return jsonify({
