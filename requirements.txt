@@ -1,0 +1,7 @@
+flask
+flask-cors
+flask-compress
+yt-dlp
+requests
+gunicorn
+python-dotenv
